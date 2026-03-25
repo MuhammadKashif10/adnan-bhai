@@ -3,7 +3,6 @@
 
 import dynamic from "next/dynamic";
 import { Autoplay, EffectFade } from "swiper/modules";
-import Link from "next/link";
 import Image from "next/image";
 import { Phone, MessageCircle } from "lucide-react";
 import { PHONE_TEL, WHATSAPP_URL } from "@/data/services";
@@ -56,8 +55,8 @@ const HeroSection = () => (
     {/* Dark overlay over the hero background */}
     <div className="absolute inset-0 bg-black/55 z-10" />
 
-    <div className="relative z-20">
-      <div className="container-main flex items-start md:items-center pt-12 pb-12 md:pt-0 md:pb-0">
+    <div className="absolute inset-0 z-20 flex items-start md:items-center pt-12 md:pt-0">
+      <div className="container-main">
         <div className="max-w-2xl animate-fade-in">
           <h1 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-secondary-foreground leading-tight mb-2">
             #1 Junk Removal Service in Dubai
@@ -84,12 +83,6 @@ const HeroSection = () => (
             >
               <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" /> WhatsApp Us
             </a>
-            <Link
-              href="/services"
-              className="inline-flex items-center gap-2 border-2 border-primary-foreground text-secondary-foreground px-4 sm:px-6 py-3 rounded-lg font-heading font-bold text-sm sm:text-base hover:bg-secondary-foreground/10 transition-colors"
-            >
-              Our Services
-            </Link>
           </div>
         </div>
       </div>
