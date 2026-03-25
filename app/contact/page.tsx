@@ -22,9 +22,9 @@ export default function ContactPage() {
               {[
                 { icon: Phone, label: "Phone", value: PHONE_NUMBER, href: `tel:${PHONE_TEL}` },
                 { icon: MessageCircle, label: "WhatsApp", value: "Chat with us", href: WHATSAPP_URL },
-                { icon: Mail, label: "Email", value: "info@dubaijunkremoval.com", href: "mailto:info@dubaijunkremoval.com" },
+                { icon: Mail, label: "Email", value: "junkpickupdubai10@gmail.com", href: "mailto:junkpickupdubai10@gmail.com" },
                 { icon: MapPin, label: "Location", value: "Dubai, United Arab Emirates" },
-                { icon: Clock, label: "Hours", value: "Saturday – Thursday: 7 AM – 9 PM" },
+                { icon: Clock, label: "Hours", value: "Monday to Sunday : 07:00 AM to 11:00 PM" },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-lg bg-accent flex items-center justify-center shrink-0">
