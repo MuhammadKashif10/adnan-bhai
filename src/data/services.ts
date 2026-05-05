@@ -114,8 +114,8 @@ export const testimonials = [
 ];
 
 // Display number (used in UI); normalize to E.164 for tel: / wa.me links.
-export const PHONE_NUMBER = "056 725 6386";
-export const PHONE_TEL = "+971567256386";
+export const PHONE_NUMBER = "+971 50 759 9311";
+export const PHONE_TEL = "+971507599311";
 
 // WhatsApp deep link (wa.me expects country code without '+', no spaces).
-export const WHATSAPP_URL = "https://wa.me/971567256386";
+export const WHATSAPP_URL = "https://wa.me/971507599311";
