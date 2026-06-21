@@ -1,4 +1,3 @@
-import ContactForm from "@/components/ContactForm";
 import { Phone, MessageCircle, Mail, MapPin, Clock } from "lucide-react";
 import { PHONE_NUMBER, PHONE_TEL, WHATSAPP_URL } from "@/data/services";
 
@@ -50,8 +49,29 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div>
-            <ContactForm />
+          <div className="bg-accent rounded-2xl p-8 md:p-10 flex flex-col justify-center text-center">
+            <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-3">
+              Ready to Book? Get a Free Quote
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Call us or message us on WhatsApp and we&apos;ll respond within 30 minutes during business hours.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href={`tel:${PHONE_TEL}`}
+                className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-heading font-bold text-base hover:bg-primary-dark transition-colors"
+              >
+                <Phone className="w-5 h-5" /> Call Now
+              </a>
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-whatsapp text-whatsapp-foreground px-6 py-3 rounded-lg font-heading font-bold text-base hover:opacity-90 transition-opacity"
+              >
+                <MessageCircle className="w-5 h-5" /> WhatsApp Us
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -17,8 +17,10 @@ export default function HomePage() {
             Our Junk Removal Services in Dubai
           </h2>
           <p className="text-center text-muted-foreground mb-10 max-w-2xl mx-auto">
-            From furniture removal to construction debris cleanup — our waste removal services cover every type of junk
-            collection in Dubai.
+            From <strong>furniture removal Dubai</strong> and <strong>appliance disposal Dubai</strong> to{" "}
+            <strong>garden waste removal Dubai</strong> and construction debris cleanup — our{" "}
+            <strong>same day junk removal Dubai</strong> team handles every type of{" "}
+            <strong>junk pickup Dubai</strong> and <strong>junk collection Dubai</strong> job, big or small.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((s) => (
@@ -40,17 +42,23 @@ export default function HomePage() {
               Dubai's Most Trusted Waste Management Service
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Looking for reliable <strong>junk removal near me</strong>? Our comprehensive{" "}
-              <strong>garbage removal service</strong> covers all of Dubai. Whether you need{" "}
-              <strong>dubai waste collection</strong>, <strong>waste management in Dubai</strong>, or complete{" "}
-              <strong>junk removal dubai</strong> solutions, we're here to help. Our team specializes in{" "}
-              <strong>collecting garbage</strong>, <strong>removal junk services</strong> and all types of{" "}
-              <strong>waste removal services</strong>. We <strong>collect junk</strong> from homes, offices, and{" "}
-              construction sites across every area in Dubai. Contact us today for fast, affordable{" "}
-              <strong>garbage removal dubai</strong> service.
+              Searching for <strong>junk removal near me</strong> or the best{" "}
+              <strong>junk removal Dubai</strong> has to offer? As a leading{" "}
+              <strong>Dubai junk removal</strong> company, our reliable{" "}
+              <strong>junk removal service Dubai</strong> covers every neighbourhood. Whether you need{" "}
+              <strong>junk pickup Dubai</strong>, <strong>junk collection Dubai</strong>,{" "}
+              <strong>general junk collection Dubai</strong>, or <strong>same day junk removal Dubai</strong>, our
+              team is ready to help. We handle <strong>garbage removal Dubai</strong>,{" "}
+              <strong>garbage collection Dubai</strong>, <strong>waste collection Dubai</strong> and professional{" "}
+              <strong>junk hauling Dubai</strong> for homes, offices, and construction sites.
               <br />
-              When you need <strong>Get rid of my junk</strong>, <strong>Remove my junk</strong>, or <strong>Take my junk</strong>, choose{" "}
-              <strong>Junk removals dubai</strong> for a fast <strong>Junk clean up</strong>.
+              Our <strong>junk removal services Dubai</strong> also include{" "}
+              <strong>furniture removal Dubai</strong>, <strong>appliance disposal Dubai</strong>,{" "}
+              <strong>garden waste removal Dubai</strong>, <strong>garden waste removal</strong> and{" "}
+              <strong>office clearance Dubai</strong>. When you just want to{" "}
+              <strong>take my junk Dubai</strong>, <strong>remove my junk Dubai</strong>, or need a fast{" "}
+              <strong>junk clean up Dubai</strong>, contact us today for affordable,{" "}
+              <strong>junk removal services Dubai</strong> you can trust.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
